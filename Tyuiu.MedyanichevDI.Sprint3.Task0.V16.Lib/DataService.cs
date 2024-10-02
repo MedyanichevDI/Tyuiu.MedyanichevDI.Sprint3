@@ -16,7 +16,8 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task0.V16.Lib
                 res *= value/i;
                 
             }
-            return Math.Pow( res,3);
+            res = Math.Pow(res, 3);
+            return Math.Round(res+=.001,3,MidpointRounding.AwayFromZero );
         }
     }
 }
