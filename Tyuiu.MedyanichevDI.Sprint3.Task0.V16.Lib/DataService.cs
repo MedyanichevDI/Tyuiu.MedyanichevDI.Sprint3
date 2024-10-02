@@ -11,7 +11,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task0.V16.Lib
 
            for (int i= startValue; i< stopValue; i++)
             {
-                res += Math.Pow(value / i, 3);
+                res *= Math.Pow(value / i, 3);
             }
             return res;
         }
