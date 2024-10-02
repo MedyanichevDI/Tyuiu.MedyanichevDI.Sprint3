@@ -44,7 +44,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task0.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Этот день " + ds.GetMultiplySeries(x, y, z));
+            Console.WriteLine( ds.GetMultiplySeries(x, y, z));
 
             Console.ReadKey();
         }
