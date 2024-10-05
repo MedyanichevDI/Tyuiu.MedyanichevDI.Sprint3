@@ -32,7 +32,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task0.V16
 
             Console.WriteLine("Введите значение предложение X: ");
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите стартовое значение: ");
+            Console.WriteLine("Введите стартовое значение ");
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите конечное значение: ");
             int z = Convert.ToInt32(Console.ReadLine());
@@ -44,7 +44,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task0.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine( ds.GetMultiplySeries(x, y, z));
+            Console.WriteLine("Этот день " + ds.GetMultiplySeries(x, y, z));
 
             Console.ReadKey();
         }

@@ -8,10 +8,10 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task1.V16.Lib
         {
             while (startValue!= stopValue)
             {
-                res *= Math.Pow(value, 2) * Math.Sin(startValue) + 1;
+                res += Math.Pow(value, 2) * Math.Sin(startValue) + 1;
                 startValue++;
             }
-            return res;
+            return Math.Round(res,3);
         }
     }
 }

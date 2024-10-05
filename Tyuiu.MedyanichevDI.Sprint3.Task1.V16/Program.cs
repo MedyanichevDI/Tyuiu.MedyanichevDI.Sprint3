@@ -31,7 +31,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task1.V16
             //string k;
 
             Console.WriteLine("Введите значение предложение X: ");
-            int x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите стартовое значение: ");
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите конечное значение: ");
@@ -44,7 +44,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task1.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetMultiplySeries(x, y, z));
+            Console.WriteLine(ds.GetSumSeries(x, y, z));
 
             Console.ReadKey();
         }
