@@ -13,7 +13,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task2.V2.Lib
                 k++;
             }
             while (k <= stopValue);
-            return res;
+            return Math.Round(res,3);
         }
        
     }
