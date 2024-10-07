@@ -9,7 +9,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task3.V9.Lib
             {
                 if (Char.IsDigit(c))
                 {
-                    value = value.Remove(c, item);
+                    value = value.Replace (c, item);
                 }
                 
             }
