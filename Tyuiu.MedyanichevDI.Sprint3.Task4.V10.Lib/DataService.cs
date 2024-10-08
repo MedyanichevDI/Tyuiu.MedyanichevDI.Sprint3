@@ -8,13 +8,18 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task4.V10.Lib
             double res = 1;
             for (float x = startValue; x <= stopValue; x++)
             {
-                res = (Math.Sin(x) - x) / x;
+                
                 if (x == 0)
                 {
                     continue;
                 }
+                else
+                {
+                    res *= (Math.Sin(x) - x) / x;
+                }
+                
             }
-            return res;
+            return Math.Round( res, 3);
         }
     }
 }
