@@ -13,7 +13,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1.Lib
             {
                 if (i == -1.2)
                 {
-                    res.Append(0);
+                    //res.Append(0);
                     break;
                 }
                 else
