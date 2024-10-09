@@ -13,7 +13,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task5.V16.Lib
                     res += Math.Cos(k) + Math.Pow(x, 2);
                 }
             }
-            return res;
+            return Math.Round(res,3);
         }
     }
 }
