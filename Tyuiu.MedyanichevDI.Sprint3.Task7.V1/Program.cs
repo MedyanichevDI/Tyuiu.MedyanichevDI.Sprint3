@@ -32,21 +32,27 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1
 
             //Console.WriteLine("Введите значение предложение X: ");
             //int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите стартовое значение: ");
-            int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите конечное значение: ");
-            int z = Convert.ToInt32(Console.ReadLine());
 
+            int y = -5;
+          
+            int z = 5;
+            int len = ds.GetMassFunction(y, z).Length;
+            double[] arr = new double[len];
 
-
-
+            arr =ds.GetMassFunction(y, z);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine(ds.GetMassFunction(y,z));
-
+            Console.WriteLine("+----------+----------+");
+            Console.WriteLine("|     X        f(x)   |");
+            Console.WriteLine("+----------+----------+");
+            for (int i = 0; i <= len - 1; i++)
+            {
+                Console.WriteLine("|{0,5:d}    |   {1,6:f2}  |", y, arr[i]);
+                y++;
+            }
+            Console.WriteLine("+----------+----------+");
             Console.ReadKey();
         }
     }
