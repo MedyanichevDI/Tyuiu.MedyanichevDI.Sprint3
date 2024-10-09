@@ -18,7 +18,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1.Lib
                 }
                 else
                 {
-                    sum = Math.Round(Math.Sin(i) / (i + 1.2) + Math.Cos(i) * 7 * i - 2);
+                    sum = Math.Round(Math.Sin(i) / (i + 1.2) + Math.Cos(i) * 7 * i - 2,2);
                     res.Append(sum);
                 }
             }
