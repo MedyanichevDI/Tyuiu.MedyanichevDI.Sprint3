@@ -7,19 +7,22 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1.Lib
         public double[] GetMassFunction(int startValue, int stopValue)
            
         {
-            double[] res = new double[10];
+            int len = stopValue - startValue + 1;
+            double[] res= new double[len];
             double sum;
+            int con = 0;
             for (int i = startValue; i<= stopValue; i++)
             {
                 if (i == -1.2)
                 {
-                    //res.Append(0);
+                    sum = 0;
+                    res[con] = sum;
                     break;
                 }
                 else
                 {
                     sum = Math.Round(Math.Sin(i) / (i + 1.2f) + Math.Cos(i) * 7f * i - 2f,2);
-                    res.Append(sum);
+                    res[con]=sum;
                 }
             }
             return res;
