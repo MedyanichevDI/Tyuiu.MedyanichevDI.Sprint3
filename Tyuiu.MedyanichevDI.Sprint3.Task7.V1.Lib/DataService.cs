@@ -13,17 +13,10 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1.Lib
             int con = 0;
             for (int i = startValue; i<= stopValue; i++)
             {
-                if (i == -1.2)
-                {
-                    sum = 0;
-                    res[con] = sum;
-                    break;
-                }
-                else
-                {
+             
                     sum = Math.Round(Math.Sin(i) / (i + 1.2f) + Math.Cos(i) * 7f * i - 2f,2);
                     res[con]=sum;
-                }
+                
             }
             return res;
         }
