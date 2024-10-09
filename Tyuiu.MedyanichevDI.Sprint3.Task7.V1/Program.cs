@@ -1,6 +1,6 @@
-﻿using Tyuiu.MedyanichevDI.Sprint3.Task5.V16.Lib;
+﻿using Tyuiu.MedyanichevDI.Sprint3.Task7.V1.Lib;
 
-namespace Tyuiu.MedyanichevDI.Sprint3.Task5.V16
+namespace Tyuiu.MedyanichevDI.Sprint3.Task7.V1
 {
     internal class Program
     {
@@ -13,13 +13,13 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task5.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Вложенные циклы                                                   *");
-            Console.WriteLine("* Задание #5                                                             *");
-            Console.WriteLine("* Вариант #16                                                              *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Медяничев Денис Игоревич | АСОиУб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("Написать программу используя цикл do...while,                              *");
-            Console.WriteLine("*которая вычисляет произведение ряда по формуле                           *");
+            Console.WriteLine("Написать программу которая выводит таблицу значения функций               *");
+      
             // Console.WriteLine("*                                                                         *");
             Console.WriteLine("*                                                                         *");
 
@@ -30,16 +30,13 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task5.V16
 
             //string k;
 
-             Console.WriteLine("Введите значение предложение X: ");
-            int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите стартовое значение1: ");
+            //Console.WriteLine("Введите значение предложение X: ");
+            //int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите стартовое значение: ");
             int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите конечное значение1: ");
+            Console.WriteLine("Введите конечное значение: ");
             int z = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите стартовое значение2: ");
-            int y2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите конечное значение2: ");
-            int z2 = Convert.ToInt32(Console.ReadLine());
+
 
 
 
@@ -48,7 +45,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task5.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetSumSumSeries(x,y, y2,z,z2));
+            Console.WriteLine(ds.GetMassFunction(y,z));
 
             Console.ReadKey();
         }

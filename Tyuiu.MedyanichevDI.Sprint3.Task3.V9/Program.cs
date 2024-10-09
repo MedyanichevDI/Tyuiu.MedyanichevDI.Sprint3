@@ -8,7 +8,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task3.V9
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #2 | Выполнил: Медяничев Д.И. | АСОиУб-24-1";
+            Console.Title = "Спринт #3 | Выполнил: Медяничев Д.И. | АСОиУб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");

@@ -8,7 +8,7 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task6.V21
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #2 | Выполнил: Медяничев Д.И. | АСОиУб-24-1";
+            Console.Title = "Спринт #3 | Выполнил: Медяничев Д.И. | АСОиУб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
@@ -32,9 +32,9 @@ namespace Tyuiu.MedyanichevDI.Sprint3.Task6.V21
 
             //Console.WriteLine("Введите значение предложение X: ");
             //int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите стартовое значение1: ");
+            Console.WriteLine("Введите стартовое значение: ");
             int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите конечное значение1: ");
+            Console.WriteLine("Введите конечное значение: ");
             int z = Convert.ToInt32(Console.ReadLine());
             
 
